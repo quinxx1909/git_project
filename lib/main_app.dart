@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'lore/login.dart';
+import 'lore/register.dart';
 
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
