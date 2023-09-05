@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:git_project/lore/register.dart';
 import 'package:git_project/main_app.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
@@ -146,7 +147,7 @@ class _LoginState extends State<Login> {
                             context,
                             MaterialPageRoute(
                               builder: (context) {
-                                return const MainApp();
+                                return const Signup();
                               },
                             ),
                           );
